@@ -1,0 +1,66 @@
+## How to delete a record
+
+**My Staff API** provides an endpoint to delete any record from your database.
+
+To do so, follow the instructions below.
+
+🚨 Deleting a record is a permanent action and cannot be reversed.
+
+---
+
+1. Run this `GET` request to list all your registered employee data.
+
+```bash
+curl --location 'https://dummy.restapiexample.com/api/v1/employees'
+```
+
+2. You'll receive a response similar to this:
+
+```bash
+{
+  "status": "success",
+  "data": [
+    {
+      "id": 1,
+      "employee_name": "Tiger Nixon",
+      "employee_salary": 320800,
+      "employee_age": 61,
+      "profile_image": ""
+    },
+    {
+      "id": 2,
+      "employee_name": "Garrett Winters",
+      "employee_salary": 170750,
+      "employee_age": 63,
+      "profile_image": ""
+    },
+    {
+      "id": 3,
+      "employee_name": "Ashton Cox",
+      "employee_salary": 86000,
+      "employee_age": 66,
+      "profile_image": ""
+    }
+  ],
+  "message": "Successfully! All records has been fetched."
+}
+```
+
+3. Copy the `id` for the record you want delete.
+4. Run this `Delete` request to eliminate an employee record from your database.
+
+```bash
+curl --location --request DELETE 'https://dummy.restapiexample.com/api/v1/delete/<id>/'
+```
+
+> 💡 Replace `<id>` for the ID of your employee in your database.
+
+5. You'll receive a response similar to this:
+
+```bash
+{
+    "message": "Successfully! Record has been deleted."
+}
+```
+
+Done! Your record has been deleted.
