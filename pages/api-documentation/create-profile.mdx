@@ -1,0 +1,70 @@
+## How to create a new record
+
+You can create and add new records to your database via **My Staff API**. This guide includes the instructions to complete this task.
+
+---
+
+### Creating a new record
+
+1. Run this `POST` request to create a new employee record, including **name**, **salary**, **age**, and **profile image**.
+
+```bash
+curl --location 'https://dummy.restapiexample.com/api/v1/create' \
+--header 'Content-Type: application/json' \
+--data '{
+  "employee_name": "Jhon Moore",
+  "employee_salary": "345",
+  "employee_age": "23",
+  "profile_image": ""
+}
+'
+```
+
+Replace the values as explained in this table:
+
+| Variable          | Data Type | Description                                         |
+| :---------------- | :-------: | :-------------------------------------------------- |
+| `employee_name`   |  String   | The name and last name of your employee             |
+| `employee_salary` |  String   | The salary for your employee                        |
+| `employee_age`    |  String   | The age of your employee                            |
+| `profile_image`   |  String   | The URL to fetch the profile image of your employee |
+
+2. You'll receive a response similar to this:
+
+```bash
+{
+    "status": "success",
+    "data": {
+      "employee_name": "Jhon Moore",
+      "employee_salary": "345",
+      "employee_age": "23",
+      "profile_image": "",
+      "id": 9139
+    },
+    "message": "Successfully! Record has been added."
+}
+```
+
+Done! You new record has been created successfully.
+
+---
+
+### Customizing the variables
+
+You can add as many variables as required in your request.
+
+This example will include `Location` and the `Team`, besides the default variables. In this case, the request body will be as follows:
+
+```bash
+curl --location 'https://dummy.restapiexample.com/api/v1/create' \
+--header 'Content-Type: application/json' \
+--data '{
+  "employee_name": "Jhon Moore",
+  "employee_salary": "345",
+  "employee_age": "23",
+  "profile_image": "",
+  "location": "Boston",
+  "team": "Marketing"
+}
+'
+```
