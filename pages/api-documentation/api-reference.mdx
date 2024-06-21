@@ -1,0 +1,193 @@
+import { Button, ButtonGroup } from "@nextui-org/button";
+
+## My Staff API
+
+**My Staff API** provides you all the available endpoints to manage your employee records via HTTP Request.
+
+These features include:
+
+- List and retrieve data.
+- Create, update, and delete employees records.
+
+---
+
+{" "}
+
+{" "}
+<Button color="primary" variant="bordered">
+  Go to API Documentation
+</Button>
+
+---
+
+### List all your employees data
+
+Run this `GET` request to list all your registered employee data.
+
+```bash
+curl --location 'https://dummy.restapiexample.com/api/v1/employees'
+```
+
+You'll receive a response similar to this:
+
+```bash
+{
+  "status": "success",
+  "data": [
+    {
+      "id": 1,
+      "employee_name": "Tiger Nixon",
+      "employee_salary": 320800,
+      "employee_age": 61,
+      "profile_image": ""
+    },
+    {
+      "id": 2,
+      "employee_name": "Garrett Winters",
+      "employee_salary": 170750,
+      "employee_age": 63,
+      "profile_image": ""
+    },
+    {
+      "id": 3,
+      "employee_name": "Ashton Cox",
+      "employee_salary": 86000,
+      "employee_age": 66,
+      "profile_image": ""
+    }
+  ],
+  "message": "Successfully! All records has been fetched."
+}
+```
+
+### Retrive data from an employee record
+
+Run this `GET` request to retrieve all the registered data from a specific employee record.
+
+```bash copy
+curl --location 'https://dummy.restapiexample.com/api/v1/employee/<id>'
+```
+
+> 💡 Replace `<id>` for the ID of your employee in your database.
+
+You'll receive a response similar to this:
+
+```bash
+{
+    "status": "success",
+    "data": {
+        "id": 3,
+        "employee_name": "Ashton Cox",
+        "employee_salary": 86000,
+        "employee_age": 66,
+        "profile_image": ""
+    },
+    "message": "Successfully! Record has been fetched."
+}
+```
+
+### Create a new employee record
+
+Run this `POST` request to create a new employee record, including **name**, **salary**, and **age**.
+
+```bash
+curl --location 'https://dummy.restapiexample.com/api/v1/create' \
+--header 'Content-Type: application/json' \
+--data '{
+  "employee_name": "Jhon Moore",
+  "employee_salary": "345",
+  "employee_age": "23",
+  "profile_image": ""
+}
+'
+```
+
+Replace the values as explained in this table:
+
+| Variable          | Data Type | Description                                         |
+| :---------------- | :-------: | :-------------------------------------------------- |
+| `employee_name`   |  String   | The name and last name of your employee             |
+| `employee_salary` |  String   | The salary for your employee                        |
+| `employee_age`    |  String   | The age of your employee                            |
+| `profile_image`   |  String   | The URL to fetch the profile image of your employee |
+
+> 💡 You can add as many variables as required in your request. For example, you can create a record with the `Location` and the `Team` your employee work with, adding these variables to the request body.
+
+You'll receive a response similar to this:
+
+```bash
+{
+    "status": "success",
+    "data": {
+      "employee_name": "Jhon Moore",
+      "employee_salary": "345",
+      "employee_age": "23",
+      "profile_image": "",
+      "id": 9139
+    },
+    "message": "Successfully! Record has been added."
+}
+```
+
+### Update an employee record
+
+Run this `PUT` request to update a specific employee record.
+
+```bash
+curl --location --request PUT 'https://dummy.restapiexample.com/api/v1/update/<id>/' \
+--header 'Content-Type: application/json' \
+--data '{
+  "employee_name": "Jhon Moore",
+  "employee_salary": "345",
+  "employee_age": "23",
+  "profile_image": ""
+}
+'
+```
+
+> 💡 Replace `<id>` for the ID of your employee in your database.
+
+Update the values as explained in this table:
+
+| Variable          | Data Type | Description                                         |
+| :---------------- | :-------: | :-------------------------------------------------- |
+| `employee_name`   |  String   | The name and last name of your employee             |
+| `employee_salary` |  String   | The salary for your employee                        |
+| `employee_age`    |  String   | The age of your employee                            |
+| `profile_image`   |  String   | The URL to fetch the profile image of your employee |
+
+> 💡 Add any other variable you created for your database.
+
+You'll receive a response similar to this:
+
+```bash
+{
+    "status": "success",
+    "data": {
+      "employee_name": "Jhon Moore",
+      "employee_salary": "345",
+      "employee_age": "23",
+      "profile_image": "",
+      "id": 9139
+    },
+    "message": "Successfully! Record has been updated."
+}
+```
+
+### Delete an employee record
+
+Run this `Delete` request to eliminate an employee record from your database.
+
+```bash
+curl --location --request DELETE 'https://dummy.restapiexample.com/api/v1/delete/<id>/'
+```
+
+> 💡 Replace `<id>` for the ID of your employee in your database.
+
+You'll receive a response similar to this:
+
+```bash
+{
+    "message": "Successfully! Record has been deleted."
+}
+```
