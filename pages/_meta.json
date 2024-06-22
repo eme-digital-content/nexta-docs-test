@@ -1,9 +1,8 @@
 {
   "readme": "Technical Writer Test - ReadMe",
-  "index": "[Part 1] Introduction",
+  "index": "[1] Publifast Documentation",
   "get-started": "Get Started",
-  "email-setup": "Email Setup",
-  "api-documentation": "[Part 2️] My Staff API",
+  "api-documentation": "[2️] My Staff API",
   "about": {
     "title": "Repository ↗",
     "type": "page",
