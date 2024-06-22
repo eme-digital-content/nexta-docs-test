@@ -2,7 +2,16 @@ import React from "react";
 import { DocsThemeConfig } from "nextra-theme-docs";
 
 const config: DocsThemeConfig = {
-  logo: <span>Technical Writer Test</span>,
+  logo: (
+    <span>
+      <img
+        src="/images/logo-circle.png"
+        alt="PubliFast Logo"
+        width={68}
+        height={68}
+      />
+    </span>
+  ),
   project: {
     link: "https://github.com/eme-digital-content/nexta-docs-test",
   },

@@ -6,19 +6,19 @@
     "items": [
       {
         "title": "Welcome to PubliFast",
-        "href": "pages/get-started/get-to-know.mdx"
+        "href": "/pages/get-started/get-to-know.mdx"
       },
       {
         "title": "Create account",
-        "href": "pages/get-started/gcreate-account.mdx"
+        "href": "/pages/get-started/gcreate-account.mdx"
       },
       {
-        "title": "Explore dashboard",
-        "href": "pages/get-started/explore-dashboard.mdx"
+        "title": "Explore the dashboard",
+        "href": "/pages/get-started/explore-dashboard.mdx"
       },
       {
-        "title": "Publish first post",
-        "href": "pages/get-started/publish-first-post.mdx"
+        "title": "Publish your first post",
+        "href": "/pages/get-started/publish-first-post.mdx"
       }
     ]
   },
@@ -99,12 +99,10 @@
         "title": "Newsletter",
         "href": "pages/advanced-configurations/newsletter.mdx"
       },
-      {
-        "title": "Developer docs ↗",
-        "href": "https://ghost.org/docs/"
-      }
+      { "title": "Developer docs ↗", "href": "https://ghost.org/docs/" }
     ]
   },
+  "---": { "type": "separator" },
   "api-documentation": "[2️] My Staff API",
   "about": {
     "title": "Repository ↗",
