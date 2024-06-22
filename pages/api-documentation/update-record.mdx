@@ -1,0 +1,89 @@
+## How to update a record
+
+After you [create a record](/api-documentation/create-record.mdx), you can update the registered data through **My Staff API**. Follow the steps explained below.
+
+---
+
+1. Run this `GET` request to list all your registered employee data.
+
+```bash
+curl --location 'https://dummy.restapiexample.com/api/v1/employees'
+```
+
+2. You'll receive a response similar to this:
+
+```bash
+{
+  "status": "success",
+  "data": [
+    {
+      "id": 1,
+      "employee_name": "Tiger Nixon",
+      "employee_salary": 320800,
+      "employee_age": 61,
+      "profile_image": ""
+    },
+    {
+      "id": 2,
+      "employee_name": "Garrett Winters",
+      "employee_salary": 170750,
+      "employee_age": 63,
+      "profile_image": ""
+    },
+    {
+      "id": 3,
+      "employee_name": "Ashton Cox",
+      "employee_salary": 86000,
+      "employee_age": 66,
+      "profile_image": ""
+    }
+  ],
+  "message": "Successfully! All records has been fetched."
+}
+```
+
+3. Copy the `id` for the record you want update.
+4. Run this `PUT` request to update a specific employee record.
+
+```bash
+curl --location --request PUT 'https://dummy.restapiexample.com/api/v1/update/<id>/' \
+--header 'Content-Type: application/json' \
+--data '{
+  "employee_name": "Jhon Moore",
+  "employee_salary": "345",
+  "employee_age": "23",
+  "profile_image": ""
+}
+'
+```
+
+> 💡 Replace `<id>` for the ID of your employee in your database.
+
+Update the values as explained in this table:
+
+| Variable          | Data Type | Description                                         |
+| :---------------- | :-------: | :-------------------------------------------------- |
+| `employee_name`   |  String   | The name and last name of your employee             |
+| `employee_salary` |  String   | The salary for your employee                        |
+| `employee_age`    |  String   | The age of your employee                            |
+| `profile_image`   |  String   | The URL to fetch the profile image of your employee |
+
+> 💡 Add any other variable you created for your database.
+
+5. You'll receive a response similar to this:
+
+```bash
+{
+    "status": "success",
+    "data": {
+      "employee_name": "Jhon Moore",
+      "employee_salary": "345",
+      "employee_age": "23",
+      "profile_image": "",
+      "id": 9139
+    },
+    "message": "Successfully! Record has been updated."
+}
+```
+
+Done. Yoou record has been updated with the new data.
