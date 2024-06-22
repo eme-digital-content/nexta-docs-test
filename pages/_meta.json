@@ -1,8 +1,111 @@
 {
-  "index": "[Part 1] Introduction",
-  "first-steps": "First Steps",
-  "email-setup": "Email Setup",
-  "api-documentation": "[Part 2️] My Staff API",
+  "readme": "Technical Writer Test - ReadMe",
+  "index": "[1] PubliFast Documentation",
+  "get-started": {
+    "title": "Get started",
+    "items": [
+      {
+        "title": "Welcome to PubliFast",
+        "href": "pages/get-started/get-to-know.mdx"
+      },
+      {
+        "title": "Create account",
+        "href": "pages/get-started/gcreate-account.mdx"
+      },
+      {
+        "title": "Explore dashboard",
+        "href": "pages/get-started/explore-dashboard.mdx"
+      },
+      {
+        "title": "Publish first post",
+        "href": "pages/get-started/publish-first-post.mdx"
+      }
+    ]
+  },
+  "publishing-content": {
+    "title": "Publish content",
+    "items": [
+      {
+        "title": "Create a new post",
+        "href": "pages/publishing-content/create-new-post.mdx"
+      },
+      {
+        "title": "Edit a post",
+        "href": "pages/publishing-content/edit-post.mdx"
+      },
+      {
+        "title": "Schedule a post",
+        "href": "pages/publishing-content/schedule-post.mdx"
+      },
+      {
+        "title": "Check published posts",
+        "href": "pages/publishing-content/check-published-posts.mdx"
+      },
+      {
+        "title": "Delete a post",
+        "href": "pages/publishing-content/delete-post.mdx"
+      },
+      {
+        "title": "Delete all content",
+        "href": "pages/publishing-content/delete-all-content.mdx"
+      },
+      {
+        "title": "Manage pages",
+        "href": "pages/publishing-content/manage-pages.mdx"
+      },
+      {
+        "title": "Manage tags",
+        "href": "pages/publishing-content/manage-tags.mdx"
+      }
+    ]
+  },
+  "manage-account": {
+    "title": "Manage account",
+    "items": [
+      {
+        "title": "Add a new member",
+        "href": "pages/manage-account/add-new-member.mdx"
+      },
+      {
+        "title": "Add members in a bulk",
+        "href": "pages/manage-account/add-members-bulk.mdx"
+      },
+      {
+        "title": "Upgrade plan",
+        "href": "pages/manage-account/upgrade-plan.mdx"
+      },
+      {
+        "title": "Edit settings",
+        "href": "pages/manage-account/edit-settings.mdx"
+      }
+    ]
+  },
+  "advanced-configurations": {
+    "title": "Advanced configurations",
+    "items": [
+      {
+        "title": "Memberships",
+        "href": "pages/advanced-configurations/memberships.mdx"
+      },
+      {
+        "title": "Analytics",
+        "href": "pages/advanced-configurations/analytics.mdx"
+      },
+      {
+        "title": "Recommendations",
+        "href": "pages/advanced-configurations/recommendations.mdx"
+      },
+      {
+        "title": "Newsletter",
+        "href": "pages/advanced-configurations/newsletter.mdx"
+      },
+      {
+        "title": "Developer docs ↗",
+        "href": "https://ghost.org/docs/"
+      }
+    ]
+  },
+  "api-documentation": "[2️] My Staff API",
   "about": {
     "title": "Repository ↗",
     "type": "page",
