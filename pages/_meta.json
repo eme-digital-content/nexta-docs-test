@@ -1,8 +1,8 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "product-documentation": "Advanced (A Folder)",
-  "api-documentation": "My Staff API",
+  "index": "[Part 1] Introduction",
+  "first-steps": "First Steps",
+  "email-setup": "Email Setup",
+  "api-documentation": "[Part 2️] My Staff API",
   "about": {
     "title": "Repository ↗",
     "type": "page",
