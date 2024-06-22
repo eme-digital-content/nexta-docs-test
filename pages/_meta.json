@@ -1,15 +1,18 @@
 {
   "index": "Introduction",
   "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  "product-documentation": "Advanced (A Folder)",
+  "api-documentation": "My Staff API",
   "about": {
-    "title": "About",
-    "type": "page"
+    "title": "Repository ↗",
+    "type": "page",
+    "href": "https://github.com/eme-digital-content/nexta-docs-test",
+    "newWindow": true
   },
   "contact": {
     "title": "Contact ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://www.linkedin.com/in/mbellorin2/",
     "newWindow": true
   }
 }
