@@ -42,6 +42,10 @@
         "href": "pages/publishing-content/check-published-posts.mdx"
       },
       {
+        "title": "Unpublish a post",
+        "href": "pages/publishing-content/unpublishing-post.mdx"
+      },
+      {
         "title": "Delete a post",
         "href": "pages/publishing-content/delete-post.mdx"
       },
