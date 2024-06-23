@@ -1,6 +1,8 @@
 {
   "add-new-member": "Add a new member",
   "add-members-bulk": "Add members in a bulk",
+  "custom-domain": "Use a custom domain",
   "upgrade-plan": "Upgrade plan",
-  "edit-settings": "Edit settings"
+  "edit-settings": "Edit settings",
+  "cancel-account": "Cancel account"
 }
