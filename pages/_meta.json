@@ -75,12 +75,20 @@
         "href": "pages/manage-account/add-members-bulk.mdx"
       },
       {
+        "title": "Use a custom domain",
+        "href": "pages/manage-account/custom-domain.mdx"
+      },
+      {
         "title": "Upgrade plan",
         "href": "pages/manage-account/upgrade-plan.mdx"
       },
       {
         "title": "Edit settings",
         "href": "pages/manage-account/edit-settings.mdx"
+      },
+      {
+        "title": "Cancel account",
+        "href": "pages/manage-account/cancel-account.mdx"
       }
     ]
   },
