@@ -5,7 +5,7 @@
     "title": "Get started",
     "items": [
       {
-        "title": "Welcome to PubliFast",
+        "title": "📝 Welcome to PubliFast",
         "href": "/pages/get-started/get-to-know.mdx"
       },
       {
@@ -17,7 +17,7 @@
         "href": "/pages/get-started/explore-dashboard.mdx"
       },
       {
-        "title": "Publish your first post",
+        "title": "📝 Publish your first post",
         "href": "/pages/get-started/publish-first-post.mdx"
       }
     ]
@@ -26,7 +26,7 @@
     "title": "Publish content",
     "items": [
       {
-        "title": "Create a new post",
+        "title": "📝Create a new post",
         "href": "pages/publishing-content/create-new-post.mdx"
       },
       {
@@ -46,11 +46,11 @@
         "href": "pages/publishing-content/unpublishing-post.mdx"
       },
       {
-        "title": "Delete a post",
+        "title": "📝 Delete a post",
         "href": "pages/publishing-content/delete-post.mdx"
       },
       {
-        "title": "Delete all content",
+        "title": "📝 Delete all content",
         "href": "pages/publishing-content/delete-all-content.mdx"
       },
       {
@@ -67,7 +67,7 @@
     "title": "Manage account",
     "items": [
       {
-        "title": "Add a new member",
+        "title": "📝 Add a new member",
         "href": "pages/manage-account/add-new-member.mdx"
       },
       {
@@ -79,7 +79,7 @@
         "href": "pages/manage-account/custom-domain.mdx"
       },
       {
-        "title": "Upgrade plan",
+        "title": "📝 Upgrade plan",
         "href": "pages/manage-account/upgrade-plan.mdx"
       },
       {

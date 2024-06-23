@@ -1,11 +1,11 @@
 {
-  "create-new-post": "Create a new post",
+  "create-new-post": "📝 Create a new post",
   "edit-post": "Edit a post",
   "schedule-post": "Schedule a post",
   "check-published-posts": "Check published posts",
   "unpublishing-post": "Unpublish a post",
-  "delete-post": "Delete a post",
-  "delete-all-content": "Delete all content",
+  "delete-post": "📝 Delete a post",
+  "delete-all-content": "📝 Delete all content",
   "manage-pages": "Manage pages",
   "manage-tags": "Manage tags"
 }
