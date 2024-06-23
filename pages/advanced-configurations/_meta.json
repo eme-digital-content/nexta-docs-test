@@ -2,5 +2,11 @@
   "analytics": "Analytics",
   "memberships": "Memberships",
   "newsletter": "Newsletter",
-  "recommendations": "Recommendations"
+  "recommendations": "Recommendations",
+  "developer-documentation": {
+    "title": "Developer docs ↗",
+    "type": "page",
+    "href": "https://ghost.org/docs/",
+    "newWindow": true
+  }
 }
