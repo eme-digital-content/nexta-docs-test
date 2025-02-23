@@ -1,5 +1,5 @@
 # Technical Writer Skills - Using Nextra Repository
 
-This project covers **Part 1** and **Part 2** of the **Technical Writer Test**. It was developed using the [nextra-docs-template](https://github.com/shuding/nextra-docs-template).
+This project showcases technical writing skills through the development of documentation using the Nextra framework.
 
 The project was deployed in [this link](https://tech-writer-test.netlify.app/).
