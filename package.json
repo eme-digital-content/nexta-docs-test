@@ -19,7 +19,7 @@
   "homepage": "https://github.com/shuding/nextra-docs-template#readme",
   "dependencies": {
     "@nextui-org/button": "^2.0.34",
-    "next": "^15.2.6",
+    "next": "15.5.9",
     "nextra": "latest",
     "nextra-theme-docs": "latest",
     "react": "^18.2.0",
